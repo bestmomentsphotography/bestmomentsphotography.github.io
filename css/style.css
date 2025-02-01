@@ -423,7 +423,7 @@ h3 {
 /* line 29, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .boxed-btn3 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
-  background: #37EBED;
+  background: #ed9817;
   color: #fff;
   display: inline-block;
   padding: 13px 28px;
@@ -433,7 +433,7 @@ h3 {
   border: 0;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  border-radius: 0px;
+  border-radius: 4px;
   text-align: center;
   color: #fff !important;
   text-transform: capitalize;
@@ -442,12 +442,11 @@ h3 {
   -o-transition: 0.5s;
   transition: 0.5s;
   cursor: pointer;
-  background: #5DB2FF;
 }
 
 /* line 48, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .boxed-btn3:hover {
-  background: #4BA8FD;
+  background: #b37312;
   color: #fff !important;
 }
 
@@ -674,7 +673,7 @@ h3 {
   border: 0;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  border-radius: 0px;
+  border-radius: 4px;
   text-align: center;
   color: #fff !important;
   text-transform: capitalize;
@@ -687,7 +686,7 @@ h3 {
 
 /* line 228, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .black_btn:hover {
-  background: #4BA8FD;
+  background: #ed9817;
   color: #fff !important;
 }
 
@@ -1105,7 +1104,7 @@ h3 {
   position: absolute;
   left: 0;
   top: 160%;
-  background: #fff;
+  background: #00000086;
   width: 200px;
   z-index: 2;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
@@ -1132,7 +1131,7 @@ h3 {
   -o-transition: 0.3s;
   transition: 0.3s;
   display: block;
-  color: #000;
+  color: #ffffff;
 }
 
 /* line 187, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
@@ -1141,9 +1140,6 @@ h3 {
 }
 
 /* line 191, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
-.header-area .main-header-area .main-menu ul li .submenu li:hover a {
-  color: #000;
-}
 
 /* line 196, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li:hover>.submenu {
@@ -2022,7 +2018,7 @@ h3 {
 /* line 1, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_tesmonial.scss */
 .testimonial_area {
   padding: 100px 0;
-  background: #F5FBFF;
+  background: #f8ebd7;
 }
 
 /* line 4, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_tesmonial.scss */
@@ -2112,7 +2108,7 @@ h3 {
 
 /* line 56, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_tesmonial.scss */
 .testimonial_area .owl-dots .owl-dot.active {
-  background: #5DB2FF;
+  background: #ed9817;
 }
 
 /* line 1, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_instagram.scss */
@@ -2852,7 +2848,7 @@ h3 {
 
 /* line 28, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
 .wild_photography {
-  background: #F5FBFF;
+  background: #f8ebd7;
 }
 
 /* line 31, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
@@ -6384,3 +6380,12 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/*# mine */
+
+ .active:hover{
+  color: #ed9817 !important;
+ }
+.sactive{
+color: #ed9817 !important;
+}
