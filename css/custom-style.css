@@ -3,3 +3,28 @@
       position: fixed;
   }
 }
+.disc {
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 25px; /* Add left spacing */
+  margin-right: 0; /* Ensure no extra right margin */
+}
+
+.disc li {
+  position: relative;
+  padding-left: 35px; /* Space for bigger custom bullet */
+  padding-right: 5px; /* Decrease right padding */
+  line-height: 3em; /* Adjust line height for better alignment */
+}
+
+.disc li::before {
+  content: "•"; /* Unicode bullet */
+  color: black; /* Customize bullet color */
+  font-size: 2em; /* Increase bullet size */
+  font-weight: bold; /* Make it thicker */
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%); /* Perfect vertical alignment */
+}
+
+
