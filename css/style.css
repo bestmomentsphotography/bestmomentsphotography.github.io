@@ -6396,6 +6396,9 @@ color: #ed9817 !important;
 .text-deco:hover{
   color: #000 !important;
 }
-.cuscolor{
+.cus-color{
   background-color: rgb(0, 140, 255);
+}
+.cus-padding{
+  padding-left: 35px;
 }
