@@ -79,6 +79,13 @@
         }(document, 'script', 'facebook-jssdk'));
     </script>
 
+ <!-- Disable right-click functionality -->
+    <script>
+        document.addEventListener('contextmenu', function (event) {
+            event.preventDefault(); // Disable the context menu
+        });
+    </script>
+
     <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -657,7 +664,7 @@
                         </div>
                         <div class="address_info">
                             <h4>Address</h4>
-                            <ul class="Address">
+                            <ul class="Address list-unstyled">
                                 <li>
                                     Mirpur 2, Dhaka, Bangladesh
                                 </li>

@@ -71,6 +71,14 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
+
+    <!-- Disable right-click functionality -->
+    <script>
+        document.addEventListener('contextmenu', function (event) {
+            event.preventDefault(); // Disable the context menu
+        });
+    </script>
+
     <header>
         <div class="header-area ">
             <div id="sticky-header" class="main-header-area">
@@ -239,7 +247,7 @@
                         </div>
                         <div class="address_info">
                             <h4>Address</h4>
-                            <ul class="Address">
+                            <ul class="Address list-unstyled">
                                 <li>
                                     Mirpur 2, Dhaka, Bangladesh
                                 </li>

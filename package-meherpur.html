@@ -79,6 +79,14 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
+
+    <!-- Disable right-click functionality -->
+    <script>
+        document.addEventListener('contextmenu', function (event) {
+            event.preventDefault(); // Disable the context menu
+        });
+    </script>
+
     <header>
         <div class="header-area ">
             <div id="sticky-header" class="main-header-area">

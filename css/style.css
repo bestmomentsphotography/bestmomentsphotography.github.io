@@ -97,11 +97,12 @@ h6 a {
 ul {
   margin: 0px;
   padding: 0px;
+
 }
 
 /* line 56, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
 li {
-  list-style: none;
+  list-style: ; /*customed bt myself*/
 }
 
 /* line 59, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
@@ -6401,4 +6402,8 @@ color: #ed9817 !important;
 }
 .cus-padding{
   padding-left: 35px;
+}
+
+li {
+  list-style: ; /*customed bt myself*/
 }

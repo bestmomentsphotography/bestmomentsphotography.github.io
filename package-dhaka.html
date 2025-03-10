@@ -79,6 +79,14 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
+
+    <!-- Disable right-click functionality -->
+    <script>
+        document.addEventListener('contextmenu', function (event) {
+            event.preventDefault(); // Disable the context menu
+        });
+    </script>
+
     <header>
         <div class="header-area ">
             <div id="sticky-header" class="main-header-area">
@@ -289,7 +297,7 @@
                     <div class="card">
                         <div class="card-header cus-color ">
                             <h4 class="my-0 font-weight-normal text-light text-uppercase">Signature Package</h4>
-                             <p class="text-white mb-0 ">(Best Moments)</p>
+                            <p class="text-white mb-0 ">(Best Moments)</p>
                         </div>
                         <div class="card-body p-0">
 

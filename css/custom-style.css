@@ -1,30 +1,44 @@
 @media only screen and (max-width: 768px) {
   #sticky-header {
-      position: fixed;
+    position: fixed;
   }
 }
+
 .disc {
-  list-style-type: none; /* Remove default bullets */
-  padding-left: 25px; /* Add left spacing */
-  margin-right: 0; /* Ensure no extra right margin */
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 25px; /* Increase gap after each list */
 }
 
 .disc li {
   position: relative;
-  padding-left: 35px; /* Space for bigger custom bullet */
-  padding-right: 5px; /* Decrease right padding */
-  line-height: 3em; /* Adjust line height for better alignment */
+  padding-left: 10px;
+  margin-bottom: 10px;
+  line-height: 1.6;
 }
 
-.disc li::before {
-  content: "•"; /* Unicode bullet */
-  color: black; /* Customize bullet color */
-  font-size: 2em; /* Increase bullet size */
-  font-weight: bold; /* Make it thicker */
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%); /* Perfect vertical alignment */
+/* Ensure the bullet aligns properly for multi-line text */
+.disc li::marker {
+  font-size: 1rem;
+  color: #000000;
+}
+
+/* Custom spacing for section titles (1, 2, 3, etc.) */
+.disc-title {
+  margin-top: 40px; /* Increase space between points */
+  font-weight: bold;
+  color: #333;
+}
+
+/* Responsive spacing */
+@media (max-width: 768px) {
+  .disc {
+      padding-left: 15px;
+  }
+
+  .disc-title {
+      margin-top: 30px; /* Reduce spacing slightly on mobile */
+  }
 }
 
 
