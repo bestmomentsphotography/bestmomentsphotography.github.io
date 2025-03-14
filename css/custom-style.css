@@ -41,4 +41,13 @@
   }
 }
 
-
+@media (max-width: 768px){
+  .breadcam_bg_2,
+  .breadcam_bg_3,
+  .wbreadcam_bg_2,
+  .breadcam_bg_c {
+    margin-top: 150px;
+    position: relative;
+    z-index: 1;
+  }
+}
