@@ -2029,8 +2029,8 @@ h3 {
 
 /* line 6, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_tesmonial.scss */
 .testimonial_area .single_testmonial h3 {
-  font-size: 42px;
-  font-weight: 300;
+  font-size: 35px;
+  font-weight: 700;
   color: #2C2C2C;
 }
 
@@ -2038,19 +2038,21 @@ h3 {
 
   /* line 6, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_tesmonial.scss */
   .testimonial_area .single_testmonial h3 {
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #2C2C2C;
   }
 }
 
 /* line 15, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_tesmonial.scss */
 .testimonial_area .single_testmonial p {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 400;
-  color: #2C2C2C;
-  line-height: 36px;
+  color: #727272;
+  line-height: 1.8;
   /* text-decoration: underline; */
-  margin-top: 53px;
-  margin-bottom: 21px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {
@@ -2058,14 +2060,16 @@ h3 {
   /* line 15, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_tesmonial.scss */
   .testimonial_area .single_testmonial p {
     margin: 20px 0;
-    font-size: 16px;
+    font-size: 15px;
+    color: #727272;
+    line-height: 1.8;
   }
 }
 
 /* line 29, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_tesmonial.scss */
 .testimonial_area .single_testmonial .author_name span {
   font-size: 16px;
-  color: #727272;
+  color: #000000;
   margin-left: 15px;
   font-weight: 400;
 }
