@@ -183,6 +183,10 @@
                         </div>
 
                     </div>
+                    <button class="btn btn-sm btn-outline-primary mt-2" onclick="captureAndShare(this)">
+                        Share as Image
+                    </button>
+                    
                 </div>
                 <div class="col-md-4 mb-3">
                     <div class="card">
@@ -414,6 +418,50 @@
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script>
+async function captureAndShare(button) {
+    const card = button.closest('.card');
+    try {
+        console.log('Capturing card...');
+        const canvas = await html2canvas(card, {useCORS: true, scale: 2}); 
+        if (!canvas) throw new Error('html2canvas failed to return a canvas.');
+
+        console.log('Converting to blob...');
+        const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
+        if (!blob) throw new Error('Failed to convert canvas to blob.');
+
+        const file = new File([blob], 'card.png', { type: 'image/png' });
+
+        console.log('Checking share support...');
+        if (navigator.canShare && navigator.canShare({ files: [file] })) {
+            console.log('Sharing...');
+            await navigator.share({
+                files: [file],
+                title: 'Check out this card!',
+                text: 'Have a look at this amazing package.'
+            });
+        } else {
+            console.log('Sharing not supported, downloading instead...');
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'card.png';
+            link.click();
+            URL.revokeObjectURL(url);
+            alert('Image downloaded. You can now share it manually.');
+        }
+    } catch (error) {
+        console.error('Capture failed:', error);
+        alert('Sorry, failed to capture and share. Open the console to see details.');
+    }
+}
+</script>
+
 </body>
 
 </html>
