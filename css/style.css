@@ -6417,3 +6417,9 @@ color: #ed9817 !important;
 li {
   list-style: ; /*customed bt myself*/
 }
+
+@media (max-width: 480px) {
+  .cus-margin1 {
+    margin-top: 150px;
+  }/*customed bt myself*/
+}
