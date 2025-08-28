@@ -2560,7 +2560,7 @@ h3 {
 
 /* line 4, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_bradcam.scss */
 .breadcam_bg_2 {
-  background-image: url(../img/fashion/pic8.jpg);
+  background-image: url(../img/img/PM02.jpg);
 }
 
 .wbreadcam_bg_2 {
@@ -2579,7 +2579,13 @@ h3 {
 .breadcam_bg_4 {
   background-image: url(../img/banner/bradcam_4.png);
 }
+.breadcam_bg_5 {
+  background-image: url(../img/img/PD02.jpg);
+}
 
+.breadcam_bg_6 {
+  background-image: url(../img/fashion/pic8.jpg);
+}
 /* line 13, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_bradcam.scss */
 .bradcam_area {
   background-size: cover;
