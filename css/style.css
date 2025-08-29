@@ -69,7 +69,7 @@ a:hover,
 /* line 34, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
 a,
 button {
-  color: #1F1F1F;
+  color: #1f1f1f;
   outline: medium none;
 }
 
@@ -80,7 +80,7 @@ h3,
 h4,
 h5 {
   font-family: "Poppins", sans-serif;
-  color: #1F1F1F;
+  color: #1f1f1f;
 }
 
 /* line 43, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
@@ -97,7 +97,6 @@ h6 a {
 ul {
   margin: 0px;
   padding: 0px;
-
 }
 
 /* line 56, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
@@ -110,7 +109,7 @@ p {
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
-  color: #4D4D4D;
+  color: #4d4d4d;
   margin-bottom: 13px;
   font-family: "Poppins", sans-serif;
 }
@@ -228,7 +227,7 @@ h3 {
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 /* line 157, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
@@ -241,7 +240,7 @@ h3 {
 .black_overlay::before {
   position: absolute;
   content: "";
-  background-color: #2C2C2C;
+  background-color: #2c2c2c;
   top: 0;
   left: 0;
   width: 100%;
@@ -263,9 +262,9 @@ h3 {
   height: 100%;
   left: 0;
   top: 0;
-  background: #2C2C2C;
-  opacity: .6;
-  content: '';
+  background: #2c2c2c;
+  opacity: 0.6;
+  content: "";
   z-index: -1;
 }
 
@@ -280,11 +279,29 @@ h3 {
   position: absolute;
   content: "";
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5db2ff+0,7db9e8+100&1+24,0+96 */
-  background: -moz-linear-gradient(left, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  background: -moz-linear-gradient(
+    left,
+    #5db2ff 0%,
+    #65b4f9 24%,
+    rgba(124, 185, 233, 0) 96%,
+    rgba(125, 185, 232, 0) 100%
+  );
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #5db2ff 0%,
+    #65b4f9 24%,
+    rgba(124, 185, 233, 0) 96%,
+    rgba(125, 185, 232, 0) 100%
+  );
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  background: linear-gradient(
+    to right,
+    #5db2ff 0%,
+    #65b4f9 24%,
+    rgba(124, 185, 233, 0) 96%,
+    rgba(125, 185, 232, 0) 100%
+  );
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5db2ff', endColorstr='#007db9e8', GradientType=1);
   /* IE6-9 */
@@ -362,7 +379,7 @@ h3 {
 /* line 272, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
 .owl-carousel:hover .owl-nav div:hover {
   color: #fff;
-  background: #5DB2FF;
+  background: #5db2ff;
   border: 1px solid transparent;
 }
 
@@ -396,19 +413,19 @@ h3 {
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #48B6FB;
+  border: 1px solid #48b6fb;
   letter-spacing: 3px;
   text-align: center;
-  color: #48B6FB !important;
+  color: #48b6fb !important;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 /* line 17, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .boxed-btn:hover {
-  background: #48B6FB;
+  background: #48b6fb;
   color: #fff !important;
-  border: 1px solid #48B6FB;
+  border: 1px solid #48b6fb;
 }
 
 /* line 22, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
@@ -459,7 +476,7 @@ h3 {
 /* line 58, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .boxed-btn4 {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
-  background: #0181F5;
+  background: #0181f5;
   color: #fff;
   display: inline-block;
   padding: 14px 27px;
@@ -483,7 +500,7 @@ h3 {
 
 /* line 77, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .boxed-btn4:hover {
-  background: #0181F5;
+  background: #0181f5;
   color: #fff !important;
 }
 
@@ -523,7 +540,7 @@ h3 {
 
 /* line 107, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .boxed-btn3-white:hover {
-  background: #28AE61;
+  background: #28ae61;
   color: #fff !important;
   border: 1px solid transparent;
 }
@@ -545,14 +562,14 @@ h3 {
 
 /* line 123, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .boxed-btn3-green-2 {
-  color: #48B6FB !important;
+  color: #48b6fb !important;
   display: inline-block;
   padding: 14px 31px;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #48B6FB;
+  border: 1px solid #48b6fb;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -568,7 +585,7 @@ h3 {
 
 /* line 139, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .boxed-btn3-green-2:hover {
-  background: #48B6FB;
+  background: #48b6fb;
   color: #fff !important;
   border: 1px solid transparent;
 }
@@ -633,20 +650,20 @@ h3 {
 
 /* line 188, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .line-button:hover {
-  color: #009DFF;
+  color: #009dff;
 }
 
 /* line 191, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .line-button:hover::before {
-  background: #009DFF;
+  background: #009dff;
 }
 
 /* line 195, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .prising_btn {
   display: inline-block;
   font-size: 14px;
-  color: #5DB2FF;
-  border: 1px solid #5DB2FF;
+  color: #5db2ff;
+  border: 1px solid #5db2ff;
   text-transform: capitalize;
   padding: 8px 28px;
   font-weight: 500;
@@ -657,7 +674,7 @@ h3 {
 
 /* line 204, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_btn.scss */
 .prising_btn:hover {
-  background: #5DB2FF;
+  background: #5db2ff;
   color: #fff;
 }
 
@@ -701,7 +718,7 @@ h3 {
   font-size: 42px;
   line-height: 54px;
   font-weight: 300;
-  color: #2C2C2C;
+  color: #2c2c2c;
   position: relative;
   z-index: 0;
   padding-bottom: 0;
@@ -709,7 +726,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 2, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_section_title.scss */
   .section_title h3 {
     font-size: 30px;
@@ -718,7 +734,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 2, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_section_title.scss */
   .section_title h3 {
     font-size: 36px;
@@ -727,7 +742,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 20, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_section_title.scss */
   .section_title h3 br {
     display: none;
@@ -745,7 +759,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 34, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_section_title.scss */
   .section_title p br {
     display: none;
@@ -758,7 +771,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 42, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_section_title.scss */
   .mb-50 {
     margin-bottom: 40px;
@@ -766,7 +778,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 4, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slick-nav.scss */
   .mobile_menu {
     position: absolute;
@@ -796,16 +807,15 @@ h3 {
 /* line 28, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #5DB2FF;
+  color: #5db2ff;
 }
 
 /* line 32, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a.active {
-  color: #5DB2FF;
+  color: #5db2ff;
 }
 
 @media (max-width: 767px) {
-
   /* line 35, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slick-nav.scss */
   .slicknav_menu .slicknav_nav a i {
     display: none;
@@ -813,7 +823,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 35, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slick-nav.scss */
   .slicknav_menu .slicknav_nav a i {
     display: none;
@@ -845,7 +854,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 12, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slick-nav.scss */
   .slicknav_menu {
     margin-right: 0px;
@@ -888,7 +896,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 1, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area {
     padding-top: 0;
@@ -896,7 +903,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 1, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area {
     padding-top: 0;
@@ -911,25 +917,22 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 16, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 10px 0px;
-    background: #2C2C2C;
+    background: #2c2c2c;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 16, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 10px 15px;
-    background: #2C2C2C;
+    background: #2c2c2c;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-
   /* line 16, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 25px 0px;
@@ -937,7 +940,6 @@ h3 {
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-
   /* line 16, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area .main-header-area {
     padding: 25px 0px;
@@ -951,7 +953,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 36, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area .main-header-area.details_nav_bg {
     padding-bottom: 10px;
@@ -964,7 +965,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 56, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
     text-align: left;
@@ -972,7 +972,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 56, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
     text-align: left;
@@ -980,7 +979,6 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-
   /* line 56, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
     text-align: left;
@@ -988,7 +986,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 70, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img img {
     width: 70px;
@@ -996,7 +993,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 70, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img img {
     width: 70px;
@@ -1052,7 +1048,6 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-
   /* line 113, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a {
     font-size: 15px;
@@ -1060,7 +1055,6 @@ h3 {
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-
   /* line 113, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a {
     font-size: 15px;
@@ -1073,7 +1067,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 132, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a i {
     display: none !important;
@@ -1081,7 +1074,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 132, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a i {
     display: none !important;
@@ -1143,14 +1135,14 @@ h3 {
 /* line 191, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
 
 /* line 196, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
-.header-area .main-header-area .main-menu ul li:hover>.submenu {
+.header-area .main-header-area .main-menu ul li:hover > .submenu {
   opacity: 1;
   visibility: visible;
   top: 150%;
 }
 
 /* line 201, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
-.header-area .main-header-area .main-menu ul li:hover>a::before {
+.header-area .main-header-area .main-menu ul li:hover > a::before {
   opacity: 1;
   transform: scaleX(1);
 }
@@ -1178,7 +1170,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 211, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area .main-header-area.sticky {
     padding: 10px 0px;
@@ -1186,7 +1177,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 211, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area .main-header-area.sticky {
     padding: 10px 0px;
@@ -1215,7 +1205,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 256, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area .header-top_area .social_media_links {
     text-align: center;
@@ -1231,7 +1220,7 @@ h3 {
 
 /* line 264, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
 .header-area .header-top_area .social_media_links a:hover {
-  color: #28AE60;
+  color: #28ae60;
 }
 
 /* line 269, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
@@ -1240,7 +1229,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 269, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area .header-top_area .short_contact_list {
     text-align: center;
@@ -1260,7 +1248,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 277, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header-area .header-top_area .short_contact_list ul li a {
     margin-left: 0;
@@ -1270,13 +1257,13 @@ h3 {
 
 /* line 286, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
 .header-area .header-top_area .short_contact_list ul li a i {
-  color: #28AE60;
+  color: #28ae60;
   margin-right: 7px;
 }
 
 /* line 296, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
 .header_bottom_border {
-  border-bottom: 1px solid #4B4E50;
+  border-bottom: 1px solid #4b4e50;
   padding-bottom: 22px;
 }
 
@@ -1286,7 +1273,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 299, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header_bottom_border.white_border {
     padding: 0;
@@ -1295,7 +1281,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 299, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header_bottom_border.white_border {
     padding: 0;
@@ -1304,7 +1289,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 296, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_header.scss */
   .header_bottom_border {
     padding: 0;
@@ -1330,7 +1314,6 @@ h3 {
   background-image: url(../img/banner/banner4.jpg);
 }
 
-
 /* line 8, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slider.scss */
 .slider_area .single_slider {
   height: 900px;
@@ -1340,7 +1323,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 8, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slider.scss */
   .slider_area .single_slider {
     height: 100vh;
@@ -1348,7 +1330,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 8, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slider.scss */
   .slider_area .single_slider {
     height: 620px;
@@ -1362,7 +1343,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 19, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slider.scss */
   .slider_area .single_slider .phone_thumb {
     top: 60px;
@@ -1370,7 +1350,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 25, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slider.scss */
   .slider_area .single_slider .phone_thumb img {
     width: 100%;
@@ -1378,7 +1357,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 25, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slider.scss */
   .slider_area .single_slider .phone_thumb img {
     width: 100%;
@@ -1386,7 +1364,6 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-
   /* line 25, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slider.scss */
   .slider_area .single_slider .phone_thumb img {
     width: 100%;
@@ -1394,7 +1371,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 37, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text {
     padding-top: 100px;
@@ -1403,7 +1379,7 @@ h3 {
 
 /* line 41, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
-  color: #FFF;
+  color: #fff;
   font-family: "Poppins", sans-serif;
   font-size: 50px;
   text-transform: capitalize;
@@ -1413,7 +1389,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 49, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 br {
     display: none;
@@ -1421,7 +1396,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 49, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 br {
     display: none;
@@ -1429,7 +1403,6 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-
   /* line 49, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 br {
     display: none;
@@ -1442,7 +1415,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 41, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
     font-size: 30px;
@@ -1451,7 +1423,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 41, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
     font-size: 30px;
@@ -1460,7 +1431,6 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-
   /* line 41, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h3 {
     font-size: 45px;
@@ -1473,13 +1443,12 @@ h3 {
 .slider_area .single_slider .slider_text p {
   font-size: 20px;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 48px;
   margin-top: 16px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-
   /* line 80, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text p {
     font-size: 16px;
@@ -1487,7 +1456,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 80, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text p {
     font-size: 16px;
@@ -1495,9 +1463,8 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 93, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_slider.scss */
-  .slider_area .single_slider .slider_text .video_service_btn>a {
+  .slider_area .single_slider .slider_text .video_service_btn > a {
     margin-bottom: 20px;
   }
 }
@@ -1508,7 +1475,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 1, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .features_area {
     padding: 30px 0 40px 0;
@@ -1516,7 +1482,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 1, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .features_area {
     padding: 30px 0 40px 0;
@@ -1539,7 +1504,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 19, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .features_area .features_main_wrap {
     padding: 30px 0;
@@ -1547,7 +1511,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 25, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .features_area .features_main_wrap .about_image img {
     width: 100%;
@@ -1555,7 +1518,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 32, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .features_area .features_info2 {
     margin-bottom: 30px;
@@ -1567,11 +1529,10 @@ h3 {
   font-size: 46px;
   line-height: 60px;
   font-weight: 300;
-  color: #2C2C2C;
+  color: #2c2c2c;
 }
 
 @media (max-width: 767px) {
-
   /* line 36, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .features_area .features_info2 h3 {
     font-size: 30px;
@@ -1580,7 +1541,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 36, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .features_area .features_info2 h3 {
     font-size: 35px;
@@ -1589,7 +1549,6 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-
   /* line 36, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .features_area .features_info2 h3 {
     font-size: 30px;
@@ -1609,7 +1568,6 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-
   /* line 62, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .features_area .features_info2 p br {
     display: none;
@@ -1622,7 +1580,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 69, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .features_area .features_info {
     padding-top: 50px;
@@ -1633,7 +1590,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 69, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .features_area .features_info {
     padding-left: 30px;
@@ -1643,7 +1599,6 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-
   /* line 69, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .features_area .features_info {
     padding-left: 30px;
@@ -1653,7 +1608,6 @@ h3 {
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-
   /* line 69, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .features_area .features_info {
     padding-left: 30px;
@@ -1666,11 +1620,10 @@ h3 {
   font-size: 46px;
   line-height: 60px;
   font-weight: 300;
-  color: #2C2C2C;
+  color: #2c2c2c;
 }
 
 @media (max-width: 767px) {
-
   /* line 93, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .features_area .features_info h3 {
     font-size: 30px;
@@ -1679,7 +1632,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 93, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .features_area .features_info h3 {
     font-size: 38px;
@@ -1688,7 +1640,6 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-
   /* line 93, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .features_area .features_info h3 {
     font-size: 30px;
@@ -1697,7 +1648,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 110, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .features_area .features_info h3 br {
     display: none;
@@ -1705,7 +1655,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 110, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .features_area .features_info h3 br {
     display: none;
@@ -1713,7 +1662,6 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-
   /* line 110, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .features_area .features_info h3 br {
     display: none;
@@ -1730,7 +1678,6 @@ h3 {
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-
   /* line 128, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .features_area .features_info p br {
     display: none;
@@ -1743,7 +1690,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 134, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .features_area .features_info ul {
     margin-bottom: 30px;
@@ -1769,7 +1715,7 @@ h3 {
   background-image: url(../img/ilstrator_img/check.svg);
   width: 16px;
   height: 16px;
-  content: '';
+  content: "";
   top: 50%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -1792,7 +1738,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 168, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .productivity_area {
     padding: 100px 0;
@@ -1803,12 +1748,11 @@ h3 {
 .productivity_area h3 {
   font-size: 46px;
   font-weight: 300;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 60px;
 }
 
 @media (max-width: 767px) {
-
   /* line 177, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .productivity_area h3 {
     font-size: 30px;
@@ -1819,7 +1763,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 177, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .productivity_area h3 {
     margin-bottom: 30px;
@@ -1832,7 +1775,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 192, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .productivity_area .app_download {
     text-align: center;
@@ -1840,7 +1782,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 192, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .productivity_area .app_download {
     text-align: center;
@@ -1853,7 +1794,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 200, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_features.scss */
   .productivity_area .app_download img {
     margin: 5px 0;
@@ -1862,7 +1802,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_counter.scss */
 .counter_area {
-  background: #F5FBFF;
+  background: #f5fbff;
   padding: 100px 0 70px 0;
 }
 
@@ -1879,7 +1819,7 @@ h3 {
 /* line 8, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_counter.scss */
 .counter_area .single_counter h3 span {
   font-size: 50px;
-  color: #2C2C2C;
+  color: #2c2c2c;
   font-weight: 400;
 }
 
@@ -1896,7 +1836,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 1, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_gallery.scss */
   .gallery_area {
     padding-top: 50px;
@@ -1904,7 +1843,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 1, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_gallery.scss */
   .gallery_area {
     padding-top: 70px;
@@ -1917,7 +1855,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 12, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_gallery.scss */
   .gallery_area .section_title p {
     padding: 0;
@@ -1984,7 +1921,7 @@ h3 {
 
 /* line 51, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_gallery.scss */
 .gallery_area .single_photography .hover .hover_inner h3 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 300;
   font-size: 24px;
   margin-bottom: 4px;
@@ -1995,7 +1932,7 @@ h3 {
   font-weight: 300;
   font-size: 13px;
   font-style: italic;
-  color: #D5D5D5;
+  color: #d5d5d5;
 }
 
 /* line 66, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_gallery.scss */
@@ -2031,16 +1968,15 @@ h3 {
 .testimonial_area .single_testmonial h3 {
   font-size: 35px;
   font-weight: 700;
-  color: #2C2C2C;
+  color: #2c2c2c;
 }
 
 @media (max-width: 767px) {
-
   /* line 6, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_tesmonial.scss */
   .testimonial_area .single_testmonial h3 {
     font-size: 30px;
     font-weight: 600;
-    color: #2C2C2C;
+    color: #2c2c2c;
   }
 }
 
@@ -2056,7 +1992,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 15, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_tesmonial.scss */
   .testimonial_area .single_testmonial p {
     margin: 20px 0;
@@ -2103,7 +2038,7 @@ h3 {
 .testimonial_area .owl-dots .owl-dot {
   width: 9px;
   height: 9px;
-  background: #D5D5D5;
+  background: #d5d5d5;
   display: inline-block;
   margin: 0 4px;
   -webkit-border-radius: 50%;
@@ -2131,7 +2066,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 12, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_instagram.scss */
   .instragram_area .single_instagram {
     width: 100%;
@@ -2139,7 +2073,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 17, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_instagram.scss */
   .instragram_area .single_instagram {
     width: 50%;
@@ -2153,10 +2086,10 @@ h3 {
   -moz-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -o-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
 
 /* line 32, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_instagram.scss */
@@ -2171,10 +2104,10 @@ h3 {
   -moz-transform: translateX(-80%);
   -ms-transform: translateX(-80%);
   transform: translateX(-80%);
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -o-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
   opacity: 0;
   visibility: hidden;
 }
@@ -2221,7 +2154,7 @@ h3 {
 
 /* line 4, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_team.scss */
 .team_area .border_bottom {
-  border-bottom: 1px solid #E8E8E8;
+  border-bottom: 1px solid #e8e8e8;
 }
 
 /* line 6, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_team.scss */
@@ -2252,7 +2185,7 @@ h3 {
 .team_area .border_bottom .single_team .team_info h3 {
   font-size: 24px;
   font-weight: 300;
-  color: #2C2C2C;
+  color: #2c2c2c;
   margin-bottom: 0;
 }
 
@@ -2260,7 +2193,7 @@ h3 {
 .team_area .border_bottom .single_team .team_info p {
   font-size: 13px;
   font-weight: 300;
-  color: #2C2C2C;
+  color: #2c2c2c;
   margin-top: 6px;
   margin-bottom: 8px;
 }
@@ -2273,7 +2206,7 @@ h3 {
 /* line 34, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_team.scss */
 .team_area .border_bottom .single_team .team_info .social_link li a {
   font-size: 15px;
-  color: #C7C7C7;
+  color: #c7c7c7;
   margin: 0 5px;
 }
 
@@ -2307,11 +2240,10 @@ h3 {
 .footer .footer_top {
   padding-top: 117px;
   padding-bottom: 205px;
-  background: #1F1F1F;
+  background: #1f1f1f;
 }
 
 @media (max-width: 767px) {
-
   /* line 6, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
   .footer .footer_top {
     padding-top: 60px;
@@ -2320,7 +2252,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 6, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
   .footer .footer_top {
     padding-top: 90px;
@@ -2329,7 +2260,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 18, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
   .footer .footer_top .footer_widget {
     margin-bottom: 30px;
@@ -2337,7 +2267,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 18, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
   .footer .footer_top .footer_widget {
     margin-bottom: 30px;
@@ -2354,7 +2283,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 25, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
   .footer .footer_top .footer_widget .footer_title {
     margin-bottom: 20px;
@@ -2371,7 +2299,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 35, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
   .footer .footer_top .footer_widget .footer_logo {
     margin-bottom: 20px;
@@ -2380,13 +2307,13 @@ h3 {
 
 /* line 45, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p {
-  color: #C7C7C7;
+  color: #c7c7c7;
 }
 
 /* line 48, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text {
   font-size: 16px;
-  color: #B2B2B2;
+  color: #b2b2b2;
   margin-bottom: 23px;
   font-weight: 400;
   line-height: 28px;
@@ -2394,26 +2321,26 @@ h3 {
 
 /* line 54, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text a.domain {
-  color: #B2B2B2;
+  color: #b2b2b2;
   font-weight: 400;
 }
 
 /* line 57, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text a.domain:hover {
-  color: #5DB2FF;
-  border-bottom: 1px solid #5DB2FF;
+  color: #5db2ff;
+  border-bottom: 1px solid #5db2ff;
 }
 
 /* line 63, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text.doanar a {
   font-weight: 500;
-  color: #B2B2B2;
+  color: #b2b2b2;
 }
 
 /* line 67, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text.doanar a:hover {
-  color: #5DB2FF;
-  border-bottom: 1px solid #5DB2FF;
+  color: #5db2ff;
+  border-bottom: 1px solid #5db2ff;
 }
 
 /* line 71, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
@@ -2423,19 +2350,19 @@ h3 {
 
 /* line 79, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li {
-  color: #C7C7C7;
+  color: #c7c7c7;
   font-size: 13px;
   line-height: 42px;
 }
 
 /* line 83, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li a {
-  color: #C7C7C7;
+  color: #c7c7c7;
 }
 
 /* line 85, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li a:hover {
-  color: #5DB2FF;
+  color: #5db2ff;
 }
 
 /* line 91, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
@@ -2470,7 +2397,7 @@ h3 {
   border: none;
   font-size: 14px;
   color: #fff;
-  background: #5DB2FF;
+  background: #5db2ff;
   padding: 10px;
   padding: 0 22px;
   cursor: pointer;
@@ -2479,7 +2406,7 @@ h3 {
 /* line 121, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget .newsletter_text {
   font-size: 16px;
-  color: #BABABA;
+  color: #bababa;
 }
 
 /* line 127, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
@@ -2491,13 +2418,12 @@ h3 {
 /* line 130, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .copy-right_text .copy_right {
   font-size: 16px;
-  color: #C7C7C7;
+  color: #c7c7c7;
   margin-bottom: 0;
   font-weight: 400;
 }
 
 @media (max-width: 767px) {
-
   /* line 130, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
   .footer .copy-right_text .copy_right {
     font-size: 14px;
@@ -2507,7 +2433,7 @@ h3 {
 
 /* line 140, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
 .footer .copy-right_text .copy_right a {
-  color: #5DB2FF;
+  color: #5db2ff;
 }
 
 /* line 145, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
@@ -2516,7 +2442,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 145, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_footer.scss */
   .footer .socail_links {
     margin-top: 30px;
@@ -2537,13 +2462,13 @@ h3 {
   height: 40px;
   display: inline-block;
   text-align: center;
-  background: #1A1A1A;
+  background: #1a1a1a;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
   line-height: 40px !important;
   margin-left: 10px;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 41px !important;
 }
 
@@ -2597,7 +2522,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 13, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_bradcam.scss */
   .bradcam_area {
     padding: 120px 0;
@@ -2614,7 +2538,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 35, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_bradcam.scss */
   .bradcam_area h3 {
     font-size: 30px;
@@ -2655,7 +2578,7 @@ h3 {
 
 /* line 70, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_bradcam.scss */
 .popup_box .popup_header {
-  background: #F5FBFF;
+  background: #f5fbff;
   padding: 28px 0;
   display: block;
 }
@@ -2664,7 +2587,7 @@ h3 {
 .popup_box .popup_header h3 {
   text-align: center;
   font-size: 20px;
-  color: #2C2C2C;
+  color: #2c2c2c;
   margin-bottom: 0;
   font-weight: 400;
 }
@@ -2679,7 +2602,7 @@ h3 {
   width: 100%;
   height: 50px;
   border: none;
-  border-bottom: 1px solid #C7C7C7;
+  border-bottom: 1px solid #c7c7c7;
   padding: 15px 0;
   margin-bottom: 20px;
 }
@@ -2700,7 +2623,7 @@ h3 {
   width: 100%;
   border: none;
   margin-top: 112px;
-  border-bottom: 1px solid #C7C7C7;
+  border-bottom: 1px solid #c7c7c7;
   padding: 15px 0;
   margin-bottom: 20px;
   height: 55px;
@@ -2724,7 +2647,7 @@ h3 {
   -webkit-tap-highlight-color: transparent;
   background-color: #fff;
   /* border-radius: 5px; */
-  border: solid 1px #E2E2E2;
+  border: solid 1px #e2e2e2;
   box-sizing: border-box;
   clear: both;
   cursor: pointer;
@@ -2825,7 +2748,7 @@ h3 {
   overflow: hidden;
   position: fixed;
   background: #000000;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 /* line 1, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
@@ -2845,7 +2768,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 7, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
   .photography_skill_area .section_title p {
     padding: 0;
@@ -2853,7 +2775,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 7, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
   .photography_skill_area .section_title p {
     padding: 0;
@@ -2876,7 +2797,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 35, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
   .wild_photography .section_title {
     padding-left: 20px;
@@ -2886,7 +2806,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 35, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
   .wild_photography .section_title {
     padding-left: 20px;
@@ -2909,7 +2828,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 62, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
   .baby_gallery_wrap .single_gallery {
     height: auto;
@@ -2936,7 +2854,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 78, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
   .baby_gallery_wrap .single_gallery.large_img {
     width: 100%;
@@ -2944,7 +2861,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 78, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
   .baby_gallery_wrap .single_gallery.large_img {
     width: 50%;
@@ -2957,7 +2873,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 89, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
   .baby_gallery_wrap .single_gallery.mid_img {
     width: 100%;
@@ -2965,7 +2880,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 89, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
   .baby_gallery_wrap .single_gallery.mid_img {
     width: 50%;
@@ -2978,7 +2892,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 100, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
   .baby_gallery_wrap .single_gallery.small_img {
     width: 100%;
@@ -2986,7 +2899,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 100, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
   .baby_gallery_wrap .single_gallery.small_img {
     width: 50%;
@@ -2998,11 +2910,10 @@ h3 {
   padding-bottom: 60px;
   padding-top: 60px;
   margin-bottom: 100px;
-  border-bottom: 1px solid #F5F5F5;
+  border-bottom: 1px solid #f5f5f5;
 }
 
 @media (max-width: 767px) {
-
   /* line 119, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
   .next_prev_post .post_lisk {
     display: block;
@@ -3021,12 +2932,11 @@ h3 {
 .next_prev_post .post_lisk p {
   font-size: 20px;
   font-weight: 500;
-  color: #2C2C2C;
+  color: #2c2c2c;
   margin-bottom: 0;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 129, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
   .next_prev_post .post_lisk p {
     font-size: 15px;
@@ -3044,7 +2954,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 142, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
   .next_prev_post .socical_button ul li {
     display: block;
@@ -3058,7 +2967,7 @@ h3 {
   font-weight: 400;
   display: inline-block;
   color: #fff;
-  background: #3B5997;
+  background: #3b5997;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -3067,7 +2976,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 149, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
   .next_prev_post .socical_button ul li a {
     display: block;
@@ -3076,7 +2984,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 149, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
   .next_prev_post .socical_button ul li a {
     padding: 11px 12px;
@@ -3084,7 +2991,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 149, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
   .next_prev_post .socical_button ul li a {
     padding: 11px 12px;
@@ -3094,12 +3000,12 @@ h3 {
 
 /* line 170, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
 .next_prev_post .socical_button ul li:nth-child(2) a {
-  background: #1DA1F2;
+  background: #1da1f2;
 }
 
 /* line 173, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
 .next_prev_post .socical_button ul li:nth-child(3) a {
-  background: #B21D23;
+  background: #b21d23;
 }
 
 /* line 1, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_contact_info.scss */
@@ -3108,7 +3014,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 3, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_contact_info.scss */
   .contact_info_area .cotact_info {
     margin-bottom: 30px;
@@ -3116,7 +3021,6 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
   /* line 3, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_contact_info.scss */
   .contact_info_area .cotact_info {
     margin-bottom: 30px;
@@ -3158,7 +3062,6 @@ h3 {
 }
 
 @media (max-width: 767px) {
-
   /* line 32, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_contact_info.scss */
   .contact_info_area .cotact_info .address_info .socail_links {
     margin-top: 30px;
@@ -3178,13 +3081,13 @@ h3 {
   height: 40px;
   display: inline-block;
   text-align: center;
-  background: #C7C7C7;
+  background: #c7c7c7;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
   line-height: 40px !important;
   margin-right: 5px;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 41px !important;
 }
 
@@ -3338,7 +3241,6 @@ h3 {
 }
 
 @media (max-width: 991px) {
-
   /* line 133, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_contact.scss */
   .contact-section {
     padding: 70px 0 40px;
@@ -3346,7 +3248,6 @@ h3 {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-
   /* line 133, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_contact.scss */
   .contact-section {
     padding: 80px 0 50px;
@@ -3465,7 +3366,7 @@ h6 {
   outline: none;
   line-height: 40px;
   padding: 0 30px;
-  font-size: .8em;
+  font-size: 0.8em;
   text-align: center;
   text-decoration: none;
   font-weight: 500;
@@ -4079,7 +3980,7 @@ h6 {
 }
 
 /* line 619, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.default-switch input+label {
+.default-switch input + label {
   position: absolute;
   top: 1px;
   left: 1px;
@@ -4096,7 +3997,7 @@ h6 {
 }
 
 /* line 632, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.default-switch input:checked+label {
+.default-switch input:checked + label {
   left: 19px;
 }
 
@@ -4123,7 +4024,7 @@ h6 {
 }
 
 /* line 655, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.primary-switch input+label {
+.primary-switch input + label {
   position: absolute;
   left: 0;
   top: 0;
@@ -4134,7 +4035,7 @@ h6 {
 }
 
 /* line 663, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.primary-switch input+label:before {
+.primary-switch input + label:before {
   content: "";
   position: absolute;
   left: 0;
@@ -4153,7 +4054,7 @@ h6 {
 }
 
 /* line 677, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.primary-switch input+label:after {
+.primary-switch input + label:after {
   content: "";
   position: absolute;
   top: 1px;
@@ -4171,12 +4072,12 @@ h6 {
 }
 
 /* line 693, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.primary-switch input:checked+label:after {
+.primary-switch input:checked + label:after {
   left: 19px;
 }
 
 /* line 696, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.primary-switch input:checked+label:before {
+.primary-switch input:checked + label:before {
   background: #ff5e13;
 }
 
@@ -4203,7 +4104,7 @@ h6 {
 }
 
 /* line 720, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.confirm-switch input+label {
+.confirm-switch input + label {
   position: absolute;
   left: 0;
   top: 0;
@@ -4214,7 +4115,7 @@ h6 {
 }
 
 /* line 728, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.confirm-switch input+label:before {
+.confirm-switch input + label:before {
   content: "";
   position: absolute;
   left: 0;
@@ -4233,7 +4134,7 @@ h6 {
 }
 
 /* line 742, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.confirm-switch input+label:after {
+.confirm-switch input + label:after {
   content: "";
   position: absolute;
   top: 1px;
@@ -4251,12 +4152,12 @@ h6 {
 }
 
 /* line 758, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.confirm-switch input:checked+label:after {
+.confirm-switch input:checked + label:after {
   left: 19px;
 }
 
 /* line 761, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.confirm-switch input:checked+label:before {
+.confirm-switch input:checked + label:before {
   background: #4cd3e3;
 }
 
@@ -4283,7 +4184,7 @@ h6 {
 }
 
 /* line 785, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.primary-checkbox input+label {
+.primary-checkbox input + label {
   position: absolute;
   left: 0;
   top: 0;
@@ -4297,8 +4198,9 @@ h6 {
 }
 
 /* line 798, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.primary-checkbox input:checked+label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+.primary-checkbox input:checked + label {
+  background: url(../img/elements/primary-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -4325,7 +4227,7 @@ h6 {
 }
 
 /* line 822, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.confirm-checkbox input+label {
+.confirm-checkbox input + label {
   position: absolute;
   left: 0;
   top: 0;
@@ -4339,8 +4241,9 @@ h6 {
 }
 
 /* line 835, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.confirm-checkbox input:checked+label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
+.confirm-checkbox input:checked + label {
+  background: url(../img/elements/success-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -4367,7 +4270,7 @@ h6 {
 }
 
 /* line 859, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.disabled-checkbox input+label {
+.disabled-checkbox input + label {
   position: absolute;
   left: 0;
   top: 0;
@@ -4387,8 +4290,9 @@ h6 {
 }
 
 /* line 876, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.disabled-checkbox input:checked+label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+.disabled-checkbox input:checked + label {
+  background: url(../img/elements/disabled-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -4415,7 +4319,7 @@ h6 {
 }
 
 /* line 900, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.primary-radio input+label {
+.primary-radio input + label {
   position: absolute;
   left: 0;
   top: 0;
@@ -4429,8 +4333,9 @@ h6 {
 }
 
 /* line 913, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.primary-radio input:checked+label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+.primary-radio input:checked + label {
+  background: url(../img/elements/primary-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -4457,7 +4362,7 @@ h6 {
 }
 
 /* line 937, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.confirm-radio input+label {
+.confirm-radio input + label {
   position: absolute;
   left: 0;
   top: 0;
@@ -4471,8 +4376,9 @@ h6 {
 }
 
 /* line 950, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.confirm-radio input:checked+label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+.confirm-radio input:checked + label {
+  background: url(../img/elements/success-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -4499,7 +4405,7 @@ h6 {
 }
 
 /* line 974, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.disabled-radio input+label {
+.disabled-radio input + label {
   position: absolute;
   left: 0;
   top: 0;
@@ -4519,8 +4425,9 @@ h6 {
 }
 
 /* line 991, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_elements.scss */
-.disabled-radio input:checked+label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+.disabled-radio input:checked + label {
+  background: url(../img/elements/disabled-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -4692,7 +4599,7 @@ h6 {
 /* line 14, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .blog_area a:hover,
 .blog_area a :hover {
-  background: -webkit-linear-gradient(131deg, #48B6FB 0%, #48B6FB 99%);
+  background: -webkit-linear-gradient(131deg, #48b6fb 0%, #48b6fb 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
@@ -4719,7 +4626,7 @@ h6 {
 
 /* line 36, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .single-blog .thumb:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -4766,7 +4673,7 @@ h6 {
 
 /* line 84, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .single-blog .tag:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 1px;
   height: 10px;
@@ -4776,7 +4683,6 @@ h6 {
 }
 
 @media (max-width: 1199px) {
-
   /* line 74, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
   .single-blog .tag {
     margin-right: 8px;
@@ -4794,7 +4700,6 @@ h6 {
 }
 
 @media (max-width: 800px) {
-
   /* line 24, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
   .single-blog {
     margin-bottom: 30px;
@@ -4820,7 +4725,6 @@ h6 {
 }
 
 @media (max-width: 1199px) {
-
   /* line 112, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
   .single-blog .single-blog-content {
     padding: 15px;
@@ -4829,13 +4733,12 @@ h6 {
 
 /* line 135, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .single-blog:hover .thumb:after {
-  opacity: .7;
+  opacity: 0.7;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 @media (max-width: 1199px) {
-
   /* line 143, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
   .single-blog h4 {
     transition: all 300ms linear 0s;
@@ -4867,7 +4770,6 @@ h6 {
 }
 
 @media (min-width: 992px) {
-
   /* line 160, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
   .full_image.single-blog .single-blog-content {
     bottom: 100px;
@@ -5029,7 +4931,7 @@ h6 {
 }
 
 /* line 358, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
-.causes_item .causes_bottom a+a {
+.causes_item .causes_bottom a + a {
   border-color: #eeeeee;
   background: #fff;
   font-size: 14px;
@@ -5094,7 +4996,7 @@ h6 {
 }
 
 /* line 431, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
-.tags .tag_btn+.tag_btn {
+.tags .tag_btn + .tag_btn {
   margin-left: 2px;
 }
 
@@ -5106,7 +5008,6 @@ h6 {
 }
 
 @media (min-width: 900px) {
-
   /* line 438, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
   .blog_categorie_area {
     padding-top: 80px;
@@ -5115,7 +5016,6 @@ h6 {
 }
 
 @media (min-width: 1100px) {
-
   /* line 438, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
   .blog_categorie_area {
     padding-top: 120px;
@@ -5194,7 +5094,6 @@ h6 {
 }
 
 @media (min-width: 768px) {
-
   /* line 529, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
   .blog_details {
     padding: 60px 30px 35px 35px;
@@ -5213,7 +5112,7 @@ h6 {
 
 /* line 544, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .blog_details a:hover {
-  color: #42B3FA;
+  color: #42b3fa;
 }
 
 /* line 549, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
@@ -5224,7 +5123,6 @@ h6 {
 }
 
 @media (min-width: 768px) {
-
   /* line 549, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
   .blog_details h2 {
     font-size: 24px;
@@ -5282,13 +5180,12 @@ h6 {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #48B6FB;
+  background-color: #48b6fb;
   padding: 8px 15px;
   border-radius: 5px;
 }
 
 @media (min-width: 768px) {
-
   /* line 599, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
   .blog_item_img .blog_item_date {
     bottom: -20px;
@@ -5307,7 +5204,6 @@ h6 {
 }
 
 @media (min-width: 768px) {
-
   /* line 615, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
   .blog_item_img .blog_item_date h3 {
     font-size: 30px;
@@ -5322,7 +5218,6 @@ h6 {
 }
 
 @media (min-width: 768px) {
-
   /* line 627, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
   .blog_item_img .blog_item_date p {
     font-size: 18px;
@@ -5457,7 +5352,7 @@ h6 {
 }
 
 /* line 774, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
-.blog_right_sidebar .post_category_widget .cat-list li+li {
+.blog_right_sidebar .post_category_widget .cat-list li + li {
   padding-top: 15px;
 }
 
@@ -5489,7 +5384,7 @@ h6 {
 }
 
 /* line 820, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
-.blog_right_sidebar .popular_post_widget .post_item+.post_item {
+.blog_right_sidebar .popular_post_widget .post_item + .post_item {
   margin-top: 20px;
 }
 
@@ -5513,7 +5408,7 @@ h6 {
 
 /* line 842, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #42B3FA;
+  background: #42b3fa;
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
@@ -5634,7 +5529,6 @@ h6 {
 }
 
 @media (min-width: 768px) {
-
   /* line 1087, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
   .single-post-area .quote-wrapper {
     padding: 30px;
@@ -5649,7 +5543,6 @@ h6 {
 }
 
 @media (min-width: 768px) {
-
   /* line 1101, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
   .single-post-area .quotes {
     padding: 25px 25px 25px 30px;
@@ -5733,7 +5626,6 @@ h6 {
 }
 
 @media (max-width: 600px) {
-
   /* line 1182, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
   .single-post-area .blog-author {
     padding: 20px 8px;
@@ -5749,7 +5641,6 @@ h6 {
 }
 
 @media (max-width: 600px) {
-
   /* line 1191, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
   .single-post-area .blog-author img {
     margin-right: 15px;
@@ -5765,7 +5656,7 @@ h6 {
 
 /* line 1208, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .single-post-area .blog-author a:hover {
-  color: #42B3FA;
+  color: #42b3fa;
 }
 
 /* line 1213, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
@@ -5829,11 +5720,10 @@ h6 {
 
 /* line 1264, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-left:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 767px) {
-
   /* line 1240, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
   .single-post-area .navigation-area .nav-left {
     margin-bottom: 30px;
@@ -5872,11 +5762,10 @@ h6 {
 
 /* line 1299, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .single-post-area .navigation-area .nav-right:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 991px) {
-
   /* line 1307, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
   .single-post-area .sidebar-widgets {
     padding-bottom: 0px;
@@ -5892,7 +5781,6 @@ h6 {
 }
 
 @media (max-width: 414px) {
-
   /* line 1314, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
   .comments-area {
     padding: 50px 8px;
@@ -5927,7 +5815,6 @@ h6 {
 }
 
 @media (max-width: 413px) {
-
   /* line 1354, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
   .comments-area .comment-list .single-comment h5 {
     font-size: 12px;
@@ -6006,7 +5893,6 @@ h6 {
 }
 
 @media (max-width: 767px) {
-
   /* line 1428, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
   .comment-form .name {
     padding-right: 0px;
@@ -6020,7 +5906,6 @@ h6 {
 }
 
 @media (max-width: 991px) {
-
   /* line 1437, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
   .comment-form .email {
     padding-left: 0px;
@@ -6097,7 +5982,6 @@ h6 {
 }
 
 @media (max-width: 576px) {
-
   /* line 2, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
   .blog_part {
     margin-bottom: 0px;
@@ -6106,7 +5990,6 @@ h6 {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-
   /* line 2, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
   .blog_part {
     margin-bottom: 0px;
@@ -6115,7 +5998,6 @@ h6 {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
   /* line 2, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
   .blog_part {
     margin-bottom: 0px;
@@ -6131,7 +6013,6 @@ h6 {
 }
 
 @media (max-width: 576px) {
-
   /* line 24, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog {
     margin-bottom: 140px;
@@ -6147,7 +6028,6 @@ h6 {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-
   /* line 24, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog {
     margin-bottom: 140px;
@@ -6156,7 +6036,6 @@ h6 {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
   /* line 24, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog {
     margin-bottom: 140px;
@@ -6189,7 +6068,6 @@ h6 {
 }
 
 @media (max-width: 576px) {
-
   /* line 48, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card .card-body {
     padding: 15px;
@@ -6199,7 +6077,6 @@ h6 {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-
   /* line 48, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card .card-body {
     padding: 15px;
@@ -6209,7 +6086,6 @@ h6 {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-
   /* line 48, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card .card-body {
     padding: 20px;
@@ -6218,7 +6094,7 @@ h6 {
 
 /* line 72, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .card-body a {
-  color: #42B3FA;
+  color: #42b3fa;
   text-transform: uppercase;
   -webkit-transition: 0.8s;
   transition: 0.8s;
@@ -6245,7 +6121,7 @@ h6 {
   height: 10px;
   top: 5px;
   left: 0;
-  background-color: #42B3FA;
+  background-color: #42b3fa;
   border-radius: 50%;
 }
 
@@ -6258,7 +6134,6 @@ h6 {
 }
 
 @media (max-width: 576px) {
-
   /* line 97, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card span {
     margin-bottom: 5px;
@@ -6267,7 +6142,6 @@ h6 {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-
   /* line 97, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card span {
     margin-bottom: 5px;
@@ -6276,7 +6150,6 @@ h6 {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
   /* line 97, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card span {
     margin-bottom: 5px;
@@ -6285,7 +6158,6 @@ h6 {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-
   /* line 97, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card span {
     margin-bottom: 5px;
@@ -6305,7 +6177,6 @@ h6 {
 }
 
 @media (max-width: 576px) {
-
   /* line 119, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card h5 {
     margin-bottom: 10px;
@@ -6313,7 +6184,6 @@ h6 {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-
   /* line 119, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card h5 {
     margin-bottom: 10px;
@@ -6322,7 +6192,6 @@ h6 {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
   /* line 119, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card h5 {
     margin-bottom: 10px;
@@ -6330,7 +6199,6 @@ h6 {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-
   /* line 119, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card h5 {
     margin-bottom: 10px;
@@ -6356,7 +6224,6 @@ h6 {
 }
 
 @media (max-width: 576px) {
-
   /* line 150, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card ul li {
     margin-right: 10px;
@@ -6364,7 +6231,6 @@ h6 {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-
   /* line 150, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card ul li {
     margin-right: 10px;
@@ -6372,7 +6238,6 @@ h6 {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
   /* line 150, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card ul li {
     margin-right: 10px;
@@ -6380,7 +6245,6 @@ h6 {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-
   /* line 150, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog_part.scss */
   .blog_part .single-home-blog .card ul li {
     margin-right: 10px;
@@ -6397,20 +6261,20 @@ h6 {
 
 /*# mine */
 
- .active:hover{
+.active:hover {
   color: #ed9817 !important;
- }
-.sactive{
-color: #ed9817 !important;
+}
+.sactive {
+  color: #ed9817 !important;
 }
 
-.text-deco:hover{
+.text-deco:hover {
   color: #000 !important;
 }
-.cus-color{
+.cus-color {
   background-color: rgb(0, 140, 255);
 }
-.cus-padding{
+.cus-padding {
   padding-left: 35px;
 }
 
@@ -6421,5 +6285,89 @@ li {
 @media (max-width: 480px) {
   .cus-margin1 {
     margin-top: 150px;
-  }/*customed bt myself*/
+  } /*customed bt myself*/
+}
+
+/* Modern WhatsApp Button */ /*customed bt myself*/
+.whatsapp-float {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #fff;
+  border: 2px solid #25d366;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+.whatsapp-float img {
+  width: 40px;
+  height: 40px;
+}
+
+
+/* CSS for Overlay + Fancy Text */
+/* Overlay only background */
+.single_slider {
+  position: relative;
+}
+.single_slider .overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 1;
+}
+.single_slider .container {
+  position: relative;
+  z-index: 2;
+}
+
+.fancy_name {
+  font-family: 'Satisfy', cursive;
+  font-size: 70px;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+  display: inline-block;
+}
+
+.main_title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.sub_title {
+  font-size: 18px;
+  color: #ddd;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .main_title {
+    padding-top: 100px;
+    font-size: 24px;
+  }
+  .fancy_name {
+    font-size: 40px;
+  }
+  .sub_title {
+    font-size: 14px;
+  }
 }
