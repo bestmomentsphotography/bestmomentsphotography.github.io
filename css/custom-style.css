@@ -127,5 +127,48 @@
   }
 }
 .bg-col-cus{
-  background-color: rgb(255, 0, 81);
+  background-color: rgb(249, 111, 155);
+}
+
+
+/* Signature Package Special Styling */
+.signature-card {
+  border: 2px solid transparent;
+  border-radius: 5px;
+  box-shadow: 0 6px 18px rgba(255, 215, 0, 0.3);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.signature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 28px rgba(255, 215, 0, 0.45);
+}
+
+.signature-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.059), transparent);
+  transform: skewX(-25deg);
+  transition: 0.8s;
+}
+
+.signature-card:hover::after {
+  left: 125%;
+}
+
+.signature-card .sig-col-cus {
+  background: linear-gradient(90deg, #FFD700, #FFB300);
+  color: #000;
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+}
+
+.signature-card h4, .signature-card p {
+  color: #111;
 }
