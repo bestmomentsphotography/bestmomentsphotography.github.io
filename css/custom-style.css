@@ -172,3 +172,23 @@
 .signature-card h4, .signature-card p {
   color: #111;
 }
+
+
+
+.glow-orange {
+  color: #ffa500; /* base orange */
+  text-shadow:
+    0 0 0px #ffa500,
+    0 0 5px #eeb155ad,
+    0 0 10px #efa434b7,
+    0 0 20px #ed9717b7;
+}
+
+.glow-blue {
+  color: #00d5ff; /* base blue */
+  text-shadow:
+    0 0 2px #a4f0ffcd,
+    0 0 5px #6fe3faba,
+    0 0 10px #4ce1ffc4,
+    0 0 20px #1ac5e7cb;
+}
