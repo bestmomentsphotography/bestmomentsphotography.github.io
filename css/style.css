@@ -240,7 +240,7 @@ h3 {
 .black_overlay::before {
   position: absolute;
   content: "";
-  background-color: #131212;
+  background-color: #13121277;
   top: 0;
   left: 0;
   width: 100%;
@@ -2494,7 +2494,7 @@ h3 {
 
 /* line 7, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_bradcam.scss */
 .breadcam_bg_3 {
-  background-image: url(../img/img/T7.jpg);
+  background-image: url(../img/img/123.png);
 }
 .breadcam_bg_c {
   background-image: url(../img/img/privacy-terms.jpg);
@@ -2783,7 +2783,7 @@ h3 {
 
 /* line 28, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
 .wild_photography {
-  background: #f8ebd7;
+  background: #c6014c;
 }
 
 /* line 31, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_photography.scss */
